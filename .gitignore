@@ -1,0 +1,7 @@
+# Git ignore untuk TFX & Python
+pipelines/
+metadata/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
