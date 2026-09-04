@@ -1,5 +1,9 @@
 FROM tensorflow/serving:latest
-COPY ./serving_model /models/serving_model
+
+# Variabel ini otomatis dibaca oleh sistem bawaan TF Serving
 ENV MODEL_NAME=churn-model
+ENV MODEL_BASE_PATH=/models
 ENV PORT=8501
-CMD tensorflow_model_server --rest_api_port=${PORT} --model_name=${MODEL_NAME} --model_base_path=/models/serving_model/mualim-fth-pipeline
+
+# Menyalin isi folder pipeline (yang berisi folder angka) tepat ke tempat yang dicari sistem
+COPY ./serving_model/mualim-fth-pipeline /models/churn-model
