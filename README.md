@@ -24,11 +24,14 @@
 
 Berikut adalah beberapa tangkapan layar bukti pengujian, *deployment*, dan pemantauan sistem:
 
-### 1. Status Target Prometheus (UP)
-![Status Prometheus](screenshots/prometheus-target.png)
+### 1. API Model Serving di Railway
+![API Railway](screenshots/mualim-fth-deployment.png)
 
-### 2. Visualisasi Dasbor Grafana
-![Grafik Grafana](screenshots/grafana-dashboard.png)
+### 2. Status Target Prometheus (UP)
+![Status Prometheus](screenshots/mualim-fth-monitoring.png)
 
-### 3. API Model Serving di Railway
-![API Railway](screenshots/railway-api.png)
+### 3. Pengecekan file .py pada folder modules untuk pylint
+![Pylint Modules](screenshots/mualim-fth-pylint.png)
+
+### 4. Visualisasi Dasbor Grafana
+![Grafik Grafana](screenshots/mualim-fth-grafana-dashboard.png)

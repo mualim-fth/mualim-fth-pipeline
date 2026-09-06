@@ -1,0 +1,7 @@
+tfx
+tensorflow
+scikit-learn
+pandas
+numpy
+flask
+requests
